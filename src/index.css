@@ -1,0 +1,5 @@
+/* Rimosso toggler dalla navbar*/
+
+.dropdown-toggle::after{
+    display: none !important;
+}
