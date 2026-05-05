@@ -5,9 +5,9 @@ import navData from './navData';
 
 
 const navLogo = (
-    <div className="head-item0">
+    <div className={`${styles.headLogo} head-item0`}>
         <a className="navbar-brand" href="#">
-            <img src={logo} alt="DC Logo" style={{ height: 40 }} />
+            <img src={logo} alt="DC Logo" className="img-fluid"/>
         </a>
     </div>
 );
@@ -70,7 +70,7 @@ const navbar = (
 );
 
 const headContentBox = (
-    <div className="d-flex justify-content-around my-1 h2">
+    <div className="d-flex justify-content-around align-items-center my-1 h2">
         {navLogo}
         {navbar}
     </div>
